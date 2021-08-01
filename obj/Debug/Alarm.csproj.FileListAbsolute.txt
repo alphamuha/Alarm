@@ -8,3 +8,8 @@ P:\Microsoft Visual Studio\source\repos\Alarm\obj\Debug\Alarm.csproj.CoreCompile
 P:\Microsoft Visual Studio\source\repos\Alarm\obj\Debug\Alarm.exe
 P:\Microsoft Visual Studio\source\repos\Alarm\obj\Debug\Alarm.pdb
 P:\Microsoft Visual Studio\source\repos\Alarm\obj\Debug\Alarm.Form1.resources
+P:\Microsoft Visual Studio\source\repos\Alarm\bin\Debug\Interop.WMPLib.dll
+P:\Microsoft Visual Studio\source\repos\Alarm\bin\Debug\AxInterop.WMPLib.dll
+P:\Microsoft Visual Studio\source\repos\Alarm\obj\Debug\Interop.WMPLib.dll
+P:\Microsoft Visual Studio\source\repos\Alarm\obj\Debug\AxInterop.WMPLib.dll
+P:\Microsoft Visual Studio\source\repos\Alarm\obj\Debug\Alarm.csproj.ResolveComReference.cache

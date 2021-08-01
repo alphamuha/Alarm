@@ -7,11 +7,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using WMPLib;
 
 namespace Alarm
 {
     public partial class Form1 : Form
     {
+        WindowsMediaPlayer player = new WindowsMediaPlayer();
+
         int hour, minute, second;
         string alarmHour, alarmMinute;
 
@@ -52,13 +55,16 @@ namespace Alarm
         {
             alarmHour = comboBoxHour.Text;
             alarmMinute = comboBoxMinutes.Text;
+
+            btnSetAlarm.Hide();
         }
 
         void Ring_Alarm()
         {
             if(alarmHour==hour.ToString() && alarmMinute==minute.ToString() && second.ToString() == "0")
             {
-                MessageBox.Show("Sound");
+                player.URL = "Alarm Sound.mp3";
+                player.controls.play();
             }
         }
     }
